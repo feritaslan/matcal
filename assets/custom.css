@@ -1,0 +1,58 @@
+/*BASIC CSS*/
+label {
+	margin-bottom: 0px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+#calc {
+	padding: 30px 30px 0 30px;
+	border: 1px solid #f4f4f4;
+}
+
+#calc .calc-form {
+	font-family: 'Poppins';
+	margin: 30px 0;
+}
+
+#calc .calc-form .form-group {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#calc .calc-form .form-control {
+	border-radius: 0px;
+	box-shadow: none;
+	padding: 20px;
+	border-radius: 3px;
+	background: transparent;
+	color: #000;
+}
+
+.darkMode #calc .calc-form .form-control {
+	color: #fff;
+}
+
+#calc .calc-form .btn {
+	padding: 10px;
+	font-weight: bold;
+}
+
+#calc #sl-result .box {
+	padding: 5px;
+	font-size: 12px; 
+}
+
+#calc #sl-result .result-box {
+	border: 1px solid #ccc;
+	padding: 30px 5px;
+	text-align: center;
+}
+
+#calc #sl-result .result-amount {
+	font-size: 20px;
+	font-weight: 700;
+}
